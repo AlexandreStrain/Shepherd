@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945db5a84eb1f349ba42c08c8763ce5, type: 3}
+  m_Name: CourageStatInfo
+  m_EditorClassIdentifier: 
+  _variable: The total amount of confidence the player has. Depending of the value,
+    the player may percieve the world differently, gaining abilities when this value
+    is at its highest or losing abilities at its lowest. Certain enemies or allies,
+    once their courage reaches 0 will respond differently to situations. Courage degrades
+    overtime and more quickly in stressful situations such as combat, however it can
+    be restored through items or interactions with other beings.

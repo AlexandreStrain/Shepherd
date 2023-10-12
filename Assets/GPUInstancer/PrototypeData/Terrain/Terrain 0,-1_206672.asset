@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7907312859628312471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaa1ff97134aec9c8aae1beccb5637, type: 3}
+  m_Name: Detail_0_Plant1_118830
+  m_EditorClassIdentifier: 
+  prefabObject: {fileID: 0}
+  isShadowCasting: 0
+  useCustomShadowDistance: 0
+  shadowDistance: 0
+  shadowLODMap:
+  - 0
+  - 4
+  - 0
+  - 0
+  - 1
+  - 5
+  - 0
+  - 0
+  - 2
+  - 6
+  - 0
+  - 0
+  - 3
+  - 7
+  - 0
+  - 0
+  useOriginalShaderForShadow: 0
+  cullShadows: 0
+  minDistance: 0
+  maxDistance: 250
+  isFrustumCulling: 1
+  isOcclusionCulling: 1
+  frustumOffset: 0.2
+  minCullingDistance: 0
+  occlusionOffset: 0
+  occlusionAccuracy: 1
+  boundsOffset: {x: 0, y: 0, z: 0}
+  isLODCrossFade: 0
+  isLODCrossFadeAnimate: 1
+  lodFadeTransitionWidth: 0.1
+  lodBiasAdjustment: 1
+  billboard:
+    billboardQuality: 1
+    atlasResolution: 2048
+    frameCount: 8
+    replaceLODCullWithBillboard: 1
+    isOverridingOriginalCutoff: 0
+    cutoffOverride: -1
+    billboardBrightness: 0.5
+    billboardDistance: 0.8
+    quadSize: 0
+    yPivotOffset: 0
+    albedoAtlasTexture: {fileID: 0}
+    normalAtlasTexture: {fileID: 0}
+    customBillboardInLODGroup: 0
+    useCustomBillboard: 0
+    customBillboardMesh: {fileID: 0}
+    customBillboardMaterial: {fileID: 0}
+    isBillboardShadowCasting: 0
+    billboardFaceCamPos: 0
+  isBillboardDisabled: 1
+  useGeneratedBillboard: 0
+  checkedForBillboardExtensions: 0
+  autoUpdateTransformData: 0
+  treeType: 0
+  warningText: 
+  prototypeIndex: 0
+  detailRenderMode: 0
+  usePrototypeMesh: 0
+  prototypeTexture: {fileID: 2800000, guid: ceca3ef8afd0c764b8eadb1ff1fcb726, type: 3}
+  useCustomMaterialForTextureDetail: 0
+  textureDetailCustomMaterial: {fileID: 0}
+  detailDensity: 0.5
+  useCrossQuads: 1
+  quadCount: 2
+  isBillboard: 0
+  billboardDistance: 0.9
+  billboardDistanceDebug: 0
+  billboardDistanceDebugColor: {r: 1, g: 0, b: 0, a: 1}
+  billboardFaceCamPos: 0
+  detailHealthyColor: {r: 0.2627451, g: 0.9764706, b: 0.1647059, a: 1}
+  detailDryColor: {r: 0.8039216, g: 0.7372549, b: 0.1019608, a: 1}
+  noiseSpread: 0.1
+  ambientOcclusion: 0.5
+  gradientPower: 0.3
+  windWaveTintColor: {r: 0.53333336, g: 0.8568628, b: 0.13333336, a: 1}
+  windIdleSway: 0.6
+  windWavesOn: 1
+  windWaveSize: 0.5
+  windWaveTint: 0.5
+  windWaveSway: 0.3
+  detailScale: {x: 0.75, y: 1.5, z: 0.5, w: 1}
+  useCustomHealthyDryNoiseTexture: 0
+  healthyDryNoiseTexture: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6aaf1e8b73d61a449034bf80bec9eaa, type: 3}
+  m_Name: Terrain 0,-1_206672
+  m_EditorClassIdentifier: 
+  terrainDataGUID: 
+  maxDetailDistance: 250
+  maxTreeDistance: 500
+  windVector: {x: 0.4, y: 0.8}
+  healthyDryNoiseTexture: {fileID: 2800000, guid: 5d221d423a7e56d4d8e9bff0c4a73886,
+    type: 3}
+  windWaveNormalTexture: {fileID: 2800000, guid: 78384f2a63e207744a3b1821e032ee03,
+    type: 3}
+  autoSPCellSize: 1
+  preferedSPCellSize: 125
+  detailDensity: 0.5
+  warningText: 
+--- !u!114 &599888030103993876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaa1ff97134aec9c8aae1beccb5637, type: 3}
+  m_Name: Detail_1_Plant3_118832
+  m_EditorClassIdentifier: 
+  prefabObject: {fileID: 0}
+  isShadowCasting: 0
+  useCustomShadowDistance: 0
+  shadowDistance: 0
+  shadowLODMap:
+  - 0
+  - 4
+  - 0
+  - 0
+  - 1
+  - 5
+  - 0
+  - 0
+  - 2
+  - 6
+  - 0
+  - 0
+  - 3
+  - 7
+  - 0
+  - 0
+  useOriginalShaderForShadow: 0
+  cullShadows: 0
+  minDistance: 0
+  maxDistance: 250
+  isFrustumCulling: 1
+  isOcclusionCulling: 1
+  frustumOffset: 0.2
+  minCullingDistance: 0
+  occlusionOffset: 0
+  occlusionAccuracy: 1
+  boundsOffset: {x: 0, y: 0, z: 0}
+  isLODCrossFade: 0
+  isLODCrossFadeAnimate: 1
+  lodFadeTransitionWidth: 0.1
+  lodBiasAdjustment: 1
+  billboard:
+    billboardQuality: 1
+    atlasResolution: 2048
+    frameCount: 8
+    replaceLODCullWithBillboard: 1
+    isOverridingOriginalCutoff: 0
+    cutoffOverride: -1
+    billboardBrightness: 0.5
+    billboardDistance: 0.8
+    quadSize: 0
+    yPivotOffset: 0
+    albedoAtlasTexture: {fileID: 0}
+    normalAtlasTexture: {fileID: 0}
+    customBillboardInLODGroup: 0
+    useCustomBillboard: 0
+    customBillboardMesh: {fileID: 0}
+    customBillboardMaterial: {fileID: 0}
+    isBillboardShadowCasting: 0
+    billboardFaceCamPos: 0
+  isBillboardDisabled: 1
+  useGeneratedBillboard: 0
+  checkedForBillboardExtensions: 0
+  autoUpdateTransformData: 0
+  treeType: 0
+  warningText: 
+  prototypeIndex: 1
+  detailRenderMode: 0
+  usePrototypeMesh: 0
+  prototypeTexture: {fileID: 2800000, guid: fcda4dafac602544f9b362bb3e3d8b12, type: 3}
+  useCustomMaterialForTextureDetail: 0
+  textureDetailCustomMaterial: {fileID: 0}
+  detailDensity: 0.5
+  useCrossQuads: 1
+  quadCount: 2
+  isBillboard: 0
+  billboardDistance: 0.9
+  billboardDistanceDebug: 0
+  billboardDistanceDebugColor: {r: 1, g: 0, b: 0, a: 1}
+  billboardFaceCamPos: 0
+  detailHealthyColor: {r: 0.708506, g: 0.9811321, b: 0.6710573, a: 1}
+  detailDryColor: {r: 0.8146748, g: 0.8584906, b: 0.09313814, a: 1}
+  noiseSpread: 0.1
+  ambientOcclusion: 0.5
+  gradientPower: 0.3
+  windWaveTintColor: {r: 0.76159036, g: 0.91981137, b: 0.38209772, a: 1}
+  windIdleSway: 0.6
+  windWavesOn: 1
+  windWaveSize: 0.5
+  windWaveTint: 0.5
+  windWaveSway: 0.3
+  detailScale: {x: 1.25, y: 2.5, z: 0.25, w: 0.75}
+  useCustomHealthyDryNoiseTexture: 0
+  healthyDryNoiseTexture: {fileID: 0}
+--- !u!114 &1562067109353651151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaa1ff97134aec9c8aae1beccb5637, type: 3}
+  m_Name: Detail_2_Plant2_118834
+  m_EditorClassIdentifier: 
+  prefabObject: {fileID: 0}
+  isShadowCasting: 0
+  useCustomShadowDistance: 0
+  shadowDistance: 0
+  shadowLODMap:
+  - 0
+  - 4
+  - 0
+  - 0
+  - 1
+  - 5
+  - 0
+  - 0
+  - 2
+  - 6
+  - 0
+  - 0
+  - 3
+  - 7
+  - 0
+  - 0
+  useOriginalShaderForShadow: 0
+  cullShadows: 0
+  minDistance: 0
+  maxDistance: 250
+  isFrustumCulling: 1
+  isOcclusionCulling: 1
+  frustumOffset: 0.2
+  minCullingDistance: 0
+  occlusionOffset: 0
+  occlusionAccuracy: 1
+  boundsOffset: {x: 0, y: 0, z: 0}
+  isLODCrossFade: 0
+  isLODCrossFadeAnimate: 1
+  lodFadeTransitionWidth: 0.1
+  lodBiasAdjustment: 1
+  billboard:
+    billboardQuality: 1
+    atlasResolution: 2048
+    frameCount: 8
+    replaceLODCullWithBillboard: 1
+    isOverridingOriginalCutoff: 0
+    cutoffOverride: -1
+    billboardBrightness: 0.5
+    billboardDistance: 0.8
+    quadSize: 0
+    yPivotOffset: 0
+    albedoAtlasTexture: {fileID: 0}
+    normalAtlasTexture: {fileID: 0}
+    customBillboardInLODGroup: 0
+    useCustomBillboard: 0
+    customBillboardMesh: {fileID: 0}
+    customBillboardMaterial: {fileID: 0}
+    isBillboardShadowCasting: 0
+    billboardFaceCamPos: 0
+  isBillboardDisabled: 1
+  useGeneratedBillboard: 0
+  checkedForBillboardExtensions: 0
+  autoUpdateTransformData: 0
+  treeType: 0
+  warningText: 
+  prototypeIndex: 2
+  detailRenderMode: 0
+  usePrototypeMesh: 0
+  prototypeTexture: {fileID: 2800000, guid: bc3f238278cb13d489c38ebc788aaf38, type: 3}
+  useCustomMaterialForTextureDetail: 0
+  textureDetailCustomMaterial: {fileID: 0}
+  detailDensity: 0.5
+  useCrossQuads: 1
+  quadCount: 2
+  isBillboard: 0
+  billboardDistance: 0.9
+  billboardDistanceDebug: 0
+  billboardDistanceDebugColor: {r: 1, g: 0, b: 0, a: 1}
+  billboardFaceCamPos: 0
+  detailHealthyColor: {r: 1, g: 0.9333333, b: 0, a: 1}
+  detailDryColor: {r: 0.8039216, g: 0.7372549, b: 0.1019608, a: 1}
+  noiseSpread: 0.1
+  ambientOcclusion: 0.5
+  gradientPower: 0.3
+  windWaveTintColor: {r: 0.9019608, g: 0.8352941, b: 0.0509804, a: 1}
+  windIdleSway: 0.6
+  windWavesOn: 1
+  windWaveSize: 0.5
+  windWaveTint: 0.5
+  windWaveSway: 0.3
+  detailScale: {x: 0.5, y: 1.5, z: 0.75, w: 1.75}
+  useCustomHealthyDryNoiseTexture: 0
+  healthyDryNoiseTexture: {fileID: 0}

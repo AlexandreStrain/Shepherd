@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53590e8f6ae55eb42b80165adb2bad66, type: 3}
+  m_Name: PlayerRuntimeReferences
+  m_EditorClassIdentifier: 
+  isFromFile: 0
+  _rightHand: {fileID: 11400000, guid: 55c64d87109c4994d9f6dd09e8cdfdd1, type: 2}
+  _leftHand: {fileID: 11400000, guid: 57736340eb081e3498553cd56f9686cd, type: 2}
+  _spell: {fileID: 11400000, guid: c35fda59b6bac0342813073a28ecb954, type: 2}
+  _consumable: {fileID: 11400000, guid: e5e6add5b98bea9498f226669f487265, type: 2}
+  _armor: {fileID: 11400000, guid: 36283e040d2fc5e4ba8efea2779fb93a, type: 2}
+  _updateGameUI: {fileID: 11400000, guid: b4ec52b4c62587f47973c12087d1b6ab, type: 2}
+  _runtimeWeapons:
+  - _instance: {fileID: 11400000, guid: c08ee66b88cd6424c933d38463c7e0aa, type: 2}
+    _itemName: Unarmed
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 0
+    _unbreakable: 0
+    _weaponHook: {fileID: 0}
+    _equippedHand: 0
+  - _instance: {fileID: 11400000, guid: c08ee66b88cd6424c933d38463c7e0aa, type: 2}
+    _itemName: Unarmed
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 0
+    _unbreakable: 0
+    _weaponHook: {fileID: 0}
+    _equippedHand: 1
+  _runtimeConsumables:
+  - _instance: {fileID: 0}
+    _itemName: 
+    _rtModel: {fileID: 0}
+    _isEquipped: 0
+    _durability: 5
+    _unbreakable: 0
+    _equippedHand: 0
+  - _instance: {fileID: 0}
+    _itemName: 
+    _rtModel: {fileID: 0}
+    _isEquipped: 0
+    _durability: 5
+    _unbreakable: 0
+    _equippedHand: 0
+  - _instance: {fileID: 11400000, guid: 54b7c117cd4d19d48894c69f0ecd3dc0, type: 2}
+    _itemName: Hands
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 0
+    _unbreakable: 1
+    _equippedHand: 0
+  _runtimeArmors:
+  - _instance: {fileID: 0}
+    _itemName: '[L] Old Boot'
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 100
+    _unbreakable: 0
+    _armorFitsGender: 0
+    _armorFitsRace: 0
+  - _instance: {fileID: 0}
+    _itemName: '[R] Old Boot'
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 100
+    _unbreakable: 0
+    _armorFitsGender: 0
+    _armorFitsRace: 0
+  - _instance: {fileID: 0}
+    _itemName: '[M] Old Pants'
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 100
+    _unbreakable: 0
+    _armorFitsGender: 0
+    _armorFitsRace: 0
+  - _instance: {fileID: 0}
+    _itemName: '[M] Old Shirt'
+    _rtModel: {fileID: 0}
+    _isEquipped: 1
+    _durability: 100
+    _unbreakable: 0
+    _armorFitsGender: 0
+    _armorFitsRace: 0
+  _flockAlertSystem: 0
+  _flock:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _prevGold: 0
+  _currentGold: 0
+  _prevFlockCount: 0
+  _locationBefore: 
+  _forecastBefore: 

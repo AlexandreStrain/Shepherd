@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42b206e8e9cb5f41a1e984b94846fcd, type: 3}
+  m_Name: Urrog The Blacksmith
+  m_EditorClassIdentifier: 
+  _name: Urrog
+  _description: Urrog the Blacksmith. A Giant unlike any other.
+  _gender: 0
+  _race: 1
+  _origin: 0
+  _class: 3
+  _faction: 1
+  _enemies: 04000000
+  _alliances: 01000000
+  _status: 0
+  _mainHand: 0
+  _baseStatistics:
+    _strength: 8
+    _vitality: 5
+    _endurance: 5
+    _dexterity: 6
+    _intelligence: 6
+    _courage: 8
+    _perception: 4
+    _luck: 2
+    _baseThirst: 0
+    _baseWaste: 0
+    _baseHunger: 0
+    _baseSleep: 0
+    _basePleasure: 0
+    _baseHealth: 0
+    _baseStamina: 0
+    _baseCourage: 0
+    _baseImmuneSystem: 0
+    _basePoise: 0
+    _baseCarryWeight: 0
+    _physical: 100
+    _finesse: 50
+    _magical: 75
+    _fire: 25
+    _water: 25
+    _earth: 25
+    _wind: 25
+    _light: 5
+    _dark: 25
+    _bleed: 25
+    _poison: 25
+    _heat: 25
+    _freeze: 25
+    _disease: 25
+    _dizzy: 25
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 5
+    _weight: 0
+    _maxDurability: 0
+  _portrait: {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  _currentBioCard: {fileID: 0}
+  _testVoice: {fileID: 0}
+  _allDialogue:
+  - _name: Introductions 1
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Ah, Welcome, welcome! You are the Shepherd''s child, are you not?
+      I can tell, you both reek of damp sheepskin.@
+
+      Haha... do not let me scare you, little Shepherd. Your father and I have an
+      arrangement, you see.@
+
+      Any smithing he needs done, I do it for a price - be it for gold or for livestock.@
+
+      Hmm... I do love me a good lamb roast once in a while, haha!'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Introductions 2
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Are you brave enough to ask for my name, little Shepherd? Or did
+      you come to gawk at my size? Do not bother me now; I am busy tending the forge.@
+
+      Oh, I see your father has asked you to come collect his order. Hrmph - I have
+      it - you have a note regarding his payment?@
+
+      Come now, do not be shy - hold out the note he gave you. I am sure your father
+      did not bring you to me alone without one.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 11400000, guid: e3a11d25c5ee8ff4a9d9f08bb2198d7f, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Introductions 3
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: Come now, do not be shy. I will not harm you. Hold out the note
+      your father gave you and all will be over. No note - no order.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Introductions 4(Father's Note Received)
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Aha, my thanks little Shepherd. Let me see here...@
+
+      Hrmph - There appears to be a change to the order. Little Shepherd, take this
+      back to your father.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0

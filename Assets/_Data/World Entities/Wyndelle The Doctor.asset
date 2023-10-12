@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42b206e8e9cb5f41a1e984b94846fcd, type: 3}
+  m_Name: Wyndelle The Doctor
+  m_EditorClassIdentifier: 
+  _name: Wyndelle
+  _description: 
+  _gender: 0
+  _race: 1
+  _origin: 0
+  _class: 3
+  _faction: 1
+  _enemies: 04000000
+  _alliances: 01000000
+  _status: 0
+  _mainHand: 0
+  _baseStatistics:
+    _strength: 4
+    _vitality: 6
+    _endurance: 5
+    _dexterity: 6
+    _intelligence: 8
+    _courage: 5
+    _perception: 2.5
+    _luck: 3
+    _baseThirst: 0
+    _baseWaste: 0
+    _baseHunger: 0
+    _baseSleep: 0
+    _basePleasure: 0
+    _baseHealth: 0
+    _baseStamina: 0
+    _baseCourage: 0
+    _baseImmuneSystem: 0
+    _basePoise: 0
+    _baseCarryWeight: 0
+    _physical: 25
+    _finesse: 25
+    _magical: 15
+    _fire: 2
+    _water: 1
+    _earth: 2
+    _wind: 1
+    _light: 2
+    _dark: 1
+    _bleed: 35
+    _poison: 35
+    _heat: 1
+    _freeze: 1
+    _disease: 35
+    _dizzy: 35
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 0
+    _weight: 0
+    _maxDurability: 0
+  _portrait: {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  _currentBioCard: {fileID: 0}
+  _testVoice: {fileID: 0}
+  _allDialogue:
+  - _name: Introductions - Toriel 1
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'And who might you be? You look vaguely familiar.@
+
+      Aha! The Shepherd''s son/daughter. Yes, yes, I know who you are. You were but
+      a baby when I first saw you.@
+
+      What brings you to my clinic, little Shepherd?'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Introductions - Toriel 2
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Oh, I see you wish to browse my stock of pharmaceuticals and herbal
+      medicines. Your father sent you, didn''t he?@
+
+      Yes, I suppose a child would have no interest coming here unless they were sick
+      or injured. A shame, really. There''s good knowledge to be had of cures for
+      all sorts of worldly afflictions.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Introductions - Toriel 3
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Did your father happen to share with you news about the condition
+      of his injury? Or did he send you to me with anything regarding payment for
+      such injury?@
+
+      I''ll take a look at it now, if you would be most kind.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0

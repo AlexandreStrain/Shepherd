@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945db5a84eb1f349ba42c08c8763ce5, type: 3}
+  m_Name: DiseaseStatInfo
+  m_EditorClassIdentifier: 
+  _variable: This symbol represents an Ailment or a Resistance to Disease. "Sick"
+    is a Status effect and is displayed when the player's Immune System recieves damage
+    from the environment, weapons, armor, items or spells. When the Immune System
+    reaches 0 due to Disease, the player will have their maximum Health, Stamina and
+    Body Needs reduced to *Half*, meaning they are more likely to be prone to succumbing
+    to other environmental hazards. Disease can and should be treated with immediately
+    in allies and livestock or they might not survive the night!

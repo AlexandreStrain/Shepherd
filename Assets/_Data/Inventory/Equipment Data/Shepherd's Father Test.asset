@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b31f494a4c42e4ea54568c6f19d10d, type: 3}
+  m_Name: Shepherd's Father Test
+  m_EditorClassIdentifier: 
+  _data:
+  - {fileID: 11400000, guid: 89982372a10308b478d94500bc1d115e, type: 2}
+  - {fileID: 11400000, guid: 2707b2ce8c5d1ea429b3430ca9175f6a, type: 2}
+  - {fileID: 11400000, guid: 90fe8d6058bb6514a929d686ad03493c, type: 2}
+  - {fileID: 11400000, guid: 780798d19f1945847a1961c76dc21525, type: 2}
+  - {fileID: 11400000, guid: f4c4878f7509fee42850d7a7fa82468a, type: 2}
+  - {fileID: 11400000, guid: b19298b8c22c74d46b88807e082028ba, type: 2}

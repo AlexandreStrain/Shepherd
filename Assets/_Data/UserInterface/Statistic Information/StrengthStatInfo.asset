@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945db5a84eb1f349ba42c08c8763ce5, type: 3}
+  m_Name: StrengthStatInfo
+  m_EditorClassIdentifier: 
+  _variable: An Attribute governing the player's ability to deal damage with and use
+    heavy weapons. In addition, Strength allows the player to build up their Physical
+    fitness (Defence and Attack) and their Carry Weight. Certain items require the
+    player's Strength to be a certain level before they can be used properly, or when
+    consumed affect this value negatively or positively depending on Side Effects.

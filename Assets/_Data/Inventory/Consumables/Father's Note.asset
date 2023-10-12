@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c916c1fd86a338e43b93f9f5ef1403dc, type: 3}
+  m_Name: Father's Note
+  m_EditorClassIdentifier: 
+  _itemType: 2
+  _itemName: Father's Note
+  _itemDescription: A note from my father
+  _itemHUDIcon: {fileID: 21300000, guid: 814e94c1d8cc8a748824e54609f9046d, type: 3}
+  _itemIcon: {fileID: 21300000, guid: 814e94c1d8cc8a748824e54609f9046d, type: 3}
+  _isQuestItem: 1
+  _isUnbreakable: 1
+  _itemStats:
+    _strength: 0
+    _vitality: 0
+    _endurance: 0
+    _dexterity: 0
+    _intelligence: 0
+    _courage: 0
+    _perception: 0
+    _luck: 0
+    _baseThirst: 0
+    _baseWaste: 0
+    _baseHunger: 0
+    _baseSleep: 0
+    _basePleasure: 0
+    _baseHealth: 0
+    _baseStamina: 0
+    _baseCourage: 0
+    _baseImmuneSystem: 0
+    _basePoise: 0
+    _baseCarryWeight: 0
+    _physical: 0
+    _finesse: 0
+    _magical: 0
+    _fire: 0
+    _water: 0
+    _earth: 0
+    _wind: 0
+    _light: 0
+    _dark: 0
+    _bleed: 0
+    _poison: 0
+    _heat: 0
+    _freeze: 0
+    _disease: 0
+    _dizzy: 0
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 2
+    _weight: 0.1
+    _maxDurability: 0
+  _useAnimation: {fileID: 11400000, guid: 92e638a132400c94fbdde4e01d9bfa53, type: 2}
+  _consumableEffect: {fileID: 0}
+  _modelPrefab: {fileID: 1932913444496898, guid: b5c6aa20a34e37c4ea28b5973fb11883,
+    type: 3}
+  _charges: 1
+  _leftHandPosition: {fileID: 11400000, guid: 208c294201e0feb4c95fdd3869081cc6, type: 2}
+  _rightHandPosition: {fileID: 0}

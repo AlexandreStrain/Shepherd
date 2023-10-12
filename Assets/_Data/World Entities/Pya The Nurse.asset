@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42b206e8e9cb5f41a1e984b94846fcd, type: 3}
+  m_Name: Pya The Nurse
+  m_EditorClassIdentifier: 
+  _name: Pya
+  _description: 
+  _gender: 1
+  _race: 1
+  _origin: 0
+  _class: 3
+  _faction: 1
+  _enemies: 04000000
+  _alliances: 01000000
+  _status: 0
+  _mainHand: 0
+  _baseStatistics:
+    _strength: 5
+    _vitality: 7
+    _endurance: 5
+    _dexterity: 4
+    _intelligence: 5
+    _courage: 3
+    _perception: 2.5
+    _luck: 0
+    _baseThirst: 0
+    _baseWaste: 0
+    _baseHunger: 0
+    _baseSleep: 0
+    _basePleasure: 0
+    _baseHealth: 0
+    _baseStamina: 0
+    _baseCourage: 0
+    _baseImmuneSystem: 0
+    _basePoise: 0
+    _baseCarryWeight: 0
+    _physical: 20
+    _finesse: 20
+    _magical: 10
+    _fire: 2
+    _water: 1
+    _earth: 1
+    _wind: 1
+    _light: 2
+    _dark: 2
+    _bleed: 30
+    _poison: 30
+    _heat: 1
+    _freeze: 1
+    _disease: 30
+    _dizzy: 30
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 0
+    _weight: 0
+    _maxDurability: 0
+  _portrait: {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  _currentBioCard: {fileID: 0}
+  _testVoice: {fileID: 0}
+  _allDialogue:
+  - _name: Introductions - Toriel
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Oh, hello there. My name''s Pya, and I''m the apprentice nurse
+      of Wyndelle, the doctor of Toriel. How may I help you?@
+
+      Oh, I see. Well, nice to meet you, little Shepherd! You have a good day now.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 11400000, guid: 68c6014ed69467d44a4b4b44be09e0f8, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Toriel Dialogue
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: Don't go getting injured now, you hear?
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0

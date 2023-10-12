@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f0c865de100214b98994eab1936913, type: 3}
+  m_Name: WorldResourceControl
+  m_EditorClassIdentifier: 
+  _worldInventory: {fileID: 11400000, guid: 00a20e97a927bac4f93269ed23ecfa38, type: 2}
+  _worldInteractions: {fileID: 11400000, guid: 91934b8d2e5950f44b301df98664e355, type: 2}
+  _worldPopulation: {fileID: 11400000, guid: ba085a6c3598ea64da1431a3a93d2200, type: 2}
+  _levelNames: {fileID: 11400000, guid: a6e6eb40d7f7e884282eb08cb94bb77f, type: 2}
+  _bioCardTemplate: {fileID: 11400000, guid: 918d9481a5e1d0b42a43e1f7f62c9330, type: 2}
+  _gInput: {fileID: 11400000, guid: bfa6a582ced44a745bef7774a61d77a4, type: 2}
+  _worldNames: {fileID: 11400000, guid: 6dda92b631de1b94f91648de1f159fc9, type: 2}
+  _runtimeReferences: {fileID: 11400000, guid: 599b2c2ffea1d094891339a6b7bd30e0, type: 2}
+  _playerInventory: {fileID: 11400000, guid: 3359725cbf3c14a4da0d22ec899efda6, type: 2}

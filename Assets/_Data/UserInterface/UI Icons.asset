@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0537cd0e13d67e41b8988cac5cf2b62, type: 3}
+  m_Name: UI Icons
+  m_EditorClassIdentifier: 
+  _allAttributeIcons:
+  - {fileID: 21300000, guid: 27486a99c5893a14787f467357f3c725, type: 3}
+  - {fileID: 21300000, guid: 7c4f33ef6e4c454428fc8596eb981652, type: 3}
+  - {fileID: 21300000, guid: 764dd26e515156d41bad5e350a3a3a99, type: 3}
+  - {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  - {fileID: 21300000, guid: 2d1664eec2aa78348a47e94b2b973081, type: 3}
+  - {fileID: 21300000, guid: 6be03188099731941b153a356748a3ec, type: 3}
+  - {fileID: 21300000, guid: 871fb8fb248ff8a47b4e4b523136c729, type: 3}
+  - {fileID: 21300000, guid: 15ac43cb5ae698f45b2454ba773e2a6f, type: 3}
+  _allAttackDefenceIcons:
+  - {fileID: 21300000, guid: bfcff738c14e6b34bbe055cb45fafbba, type: 3}
+  - {fileID: 21300000, guid: 5dec75df55af03048a6eae15500c8636, type: 3}
+  - {fileID: 21300000, guid: 2df943c243fb8874092e7f4c66961203, type: 3}
+  - {fileID: 21300000, guid: bca68aa954926144a817eea8ec9f010c, type: 3}
+  - {fileID: 21300000, guid: c5eb67d384c171a4cbc2aa57db33358b, type: 3}
+  - {fileID: 21300000, guid: f9696c7512e616f41bd07c5e53b3a6f3, type: 3}
+  - {fileID: 21300000, guid: 540747d2de33872408812df4cee82b75, type: 3}
+  - {fileID: 21300000, guid: b9b96bb5e45643a45a83d3f358525845, type: 3}
+  - {fileID: 21300000, guid: 39efa60c3c1cf684c8c3cadeb2ec1f44, type: 3}
+  _allResistancesIcons:
+  - {fileID: 21300000, guid: 979c89c3d4922c9498718b08beeff17a, type: 3}
+  - {fileID: 21300000, guid: a662ab7103d4eb047a29f4fcb0db5619, type: 3}
+  - {fileID: 21300000, guid: 4fa2a04f6820b6a4ebb1b24059bf7e82, type: 3}
+  - {fileID: 21300000, guid: 8c99ccb14f2d68941bd62c1621f0e61a, type: 3}
+  - {fileID: 21300000, guid: 491f32628984d1a4a9c0c9105f5a227d, type: 3}
+  - {fileID: 21300000, guid: 21780ca601ac0d445b2902f49b996811, type: 3}
+  _allBodyNeedsIcons:
+  - {fileID: 21300000, guid: b069eddb702fe5e45a6ef43504f6af4b, type: 3}
+  - {fileID: 21300000, guid: 7946cb353748c434b979a5b64957a111, type: 3}
+  - {fileID: 21300000, guid: dd3ac30c8dbf4094bbeb755be3693fa4, type: 3}
+  - {fileID: 21300000, guid: d4dcea2d59bf46d4da5bbb581a3fd6b5, type: 3}
+  - {fileID: 21300000, guid: 116828d144e1d0c4dae791f2f53ff7f2, type: 3}
+  _allStatusBarIcons:
+  - {fileID: 21300000, guid: dfd98370e75d79c43b2683fd22e3bb98, type: 3}
+  - {fileID: 21300000, guid: 886e67cbdd910b7429912f031618c65b, type: 3}
+  - {fileID: 21300000, guid: ff3cb0b5a5e303043a0ffeb763cab260, type: 3}
+  - {fileID: 21300000, guid: 22ed540357fc3b8419d02d026bbca881, type: 3}
+  _allButtonPromptIcons:
+  - {fileID: 21300000, guid: f67b2d1d3db30964abf5701a1c8647d6, type: 3}
+  - {fileID: 21300000, guid: 95417a81f42778e4d90514399dc89b39, type: 3}
+  - {fileID: 21300000, guid: 3e240fec650ba6a4daa5d0611d79b10c, type: 3}
+  - {fileID: 21300000, guid: 790d374fa76249c44bdd7f9fe84cef65, type: 3}
+  - {fileID: 21300000, guid: 74c50944e4dac1846a02abbfacfd5051, type: 3}
+  - {fileID: 21300000, guid: 204cf60169855f648b4490ae085a8477, type: 3}
+  - {fileID: 21300000, guid: bf235776064992848a560acc8a709340, type: 3}
+  - {fileID: 21300000, guid: 1b764addb6b83754da1acc51e9c24471, type: 3}
+  - {fileID: 21300000, guid: 698a5cf83984c3448ba16e41a510651d, type: 3}
+  _blankSpriteTemplate: {fileID: 21300000, guid: c029fb857b8b52044a965d87fac9b67c,
+    type: 3}

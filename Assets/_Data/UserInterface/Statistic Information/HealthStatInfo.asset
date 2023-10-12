@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9945db5a84eb1f349ba42c08c8763ce5, type: 3}
+  m_Name: HealthStatInfo
+  m_EditorClassIdentifier: 
+  _variable: The total amount of damage the player can withstand before they perish.
+    In other words, once this value reaches 0, the player dies and it's game over.
+    Is affected by the player's Immune System, weapons, spells, and item Side Effects.

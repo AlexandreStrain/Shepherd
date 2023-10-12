@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a561f0ce183d6c64582e82878ff5db4a, type: 3}
+  m_Name: Ethan of Toriel
+  m_EditorClassIdentifier: 
+  _prompt: 0
+  _animation: {fileID: 0}
+  _enabled: 1
+  _position: {x: 0, y: 0, z: 0}
+  _repeatable: 1
+  _specialEvent: {fileID: 0}
+  _source: {fileID: 0}

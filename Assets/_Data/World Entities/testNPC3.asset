@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42b206e8e9cb5f41a1e984b94846fcd, type: 3}
+  m_Name: testNPC3
+  m_EditorClassIdentifier: 
+  _name: TutorialMan
+  _description: 
+  _gender: 0
+  _race: 0
+  _origin: 0
+  _class: 2
+  _faction: 0
+  _enemies: 04000000
+  _alliances: 
+  _status: 0
+  _mainHand: 0
+  _baseStatistics:
+    _strength: 10
+    _vitality: 10
+    _endurance: 10
+    _dexterity: 10
+    _intelligence: 10
+    _courage: 10
+    _perception: 10
+    _luck: 10
+    _baseThirst: 0
+    _baseWaste: 0
+    _baseHunger: 0
+    _baseSleep: 0
+    _basePleasure: 0
+    _baseHealth: 0
+    _baseStamina: 0
+    _baseCourage: 0
+    _baseImmuneSystem: 0
+    _basePoise: 0
+    _baseCarryWeight: 0
+    _physical: 50
+    _finesse: 50
+    _magical: 50
+    _fire: 50
+    _water: 50
+    _earth: 50
+    _wind: 50
+    _light: 50
+    _dark: 50
+    _bleed: 100
+    _poison: 100
+    _heat: 100
+    _freeze: 100
+    _disease: 100
+    _dizzy: 100
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 0
+    _weight: 0
+    _maxDurability: 0
+  _portrait: {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  _currentBioCard: {fileID: 0}
+  _testVoice: {fileID: 0}
+  _allDialogue:
+  - _name: Hello
+    _playAnimation: 1
+    _animation: {fileID: 11400000, guid: 21f90ede2f2eedb48a48e295cb37f504, type: 2}
+    _dialogueText: Hello! I am TutorialMan. Let's get started.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: General Rules0
+    _playAnimation: 1
+    _animation: {fileID: 11400000, guid: 5b2645d7aa98dfe4e9eb2668267fa4f7, type: 2}
+    _dialogueText: 'Movement:
+
+      WASD=walk, Space=Jump, Shift=Run,
+
+      CRTL=Dodge (Hold To Crouch).@
+
+      Interactions:
+
+      E=Interact/Confirm, F=Use Item (Hold To Give).'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: General Rules1
+    _playAnimation: 1
+    _animation: {fileID: 11400000, guid: 5b2645d7aa98dfe4e9eb2668267fa4f7, type: 2}
+    _dialogueText: 'Menu:
+
+      TAB=Open Menu, QRCV=Navigate,
+
+      E=Confirm, CRTL=Cancel/Back@
+
+      F=Unequip, MouseLeft/MouseRight=Change panel.@
+
+      At the top of the hill behind me, there is a glowing staff. Go pick it up equip
+      it from the Equipment Menu!@'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: General Rules2
+    _playAnimation: 1
+    _animation: {fileID: 11400000, guid: 5b2645d7aa98dfe4e9eb2668267fa4f7, type: 2}
+    _dialogueText: 'Attacking:
+
+      middle mouse button=toggle lockon
+
+      scrollwheel=switch targets. it''s a bit buggy.@
+
+      MouseButtons= Left and right hands,
+
+      CAPSLOCK + MouseButtons= strong attack,
+
+      Q / R = Switch weapon in hand,@
+
+      Q (HOLD) / R (HOLD) = two hand weapon,
+
+      tap opposite to switch back.@
+
+      Don''t kill me!'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0

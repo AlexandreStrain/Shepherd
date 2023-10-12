@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4ca26475e9f0b42b56e8206bba9075, type: 3}
+  m_Name: HeavyOneWeakAttack_Right_01
+  m_EditorClassIdentifier: 
+  _animation: {fileID: 11400000, guid: 516b8da3241930e428a6a634064f0203, type: 2}
+  _changeAnimationSpeed: 0
+  _animationSpeed: 1
+  _staminaCost: 20
+  _otherCost: 0
+  _vulnerableToParry: 1
+  _canParryWith: 0
+  _vulnerableToBackstab: 1
+  _canBackstabWith: 0
+  _overrideDamageAnimation: 1
+  _damageAnimation: {fileID: 11400000, guid: eb2c26d6d7707294893e5b397b997bbb, type: 2}
+  _overrideKickAnimation: 0
+  _kickAnimation: {fileID: 0}

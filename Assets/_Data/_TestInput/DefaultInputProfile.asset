@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f0dea22d1c38049bd742ae36f0c955, type: 3}
+  m_Name: DefaultInputProfile
+  m_EditorClassIdentifier: 
+  _keyboardInput:
+  - _keyName: Move Left
+    _key: 97
+  - _keyName: Move Right
+    _key: 100
+  - _keyName: Move Forward
+    _key: 119
+  - _keyName: Move Backward
+    _key: 115
+  - _keyName: Cycle Left-Hand
+    _key: 113
+  - _keyName: Cycle Right-Hand
+    _key: 114
+  - _keyName: Cycle Items
+    _key: 118
+  - _keyName: Cycle Companion Commands
+    _key: 99
+  - _keyName: ShortcutItem 1
+    _key: 49
+  - _keyName: ShortcutItem 2
+    _key: 50
+  - _keyName: ShortcutItem 3
+    _key: 51
+  - _keyName: ShortcutItem 4
+    _key: 52
+  - _keyName: ShortcutItem 5
+    _key: 53
+  - _keyName: ShortcutItem 6
+    _key: 54
+  - _keyName: ShortcutItem 7
+    _key: 55
+  - _keyName: ShortcutItem 8
+    _key: 56
+  - _keyName: ShortcutItem 9
+    _key: 57
+  - _keyName: ShortcutItem 10
+    _key: 48
+  - _keyName: Dodge
+    _key: 306
+  - _keyName: Interact
+    _key: 101
+  - _keyName: Use Item
+    _key: 102
+  - _keyName: Sprint
+    _key: 304
+  - _keyName: Strong Attack Modifier
+    _key: 301
+  - _keyName: Jump
+    _key: 32
+  - _keyName: LockOn
+    _key: 325
+  - _keyName: Weak Attack Left
+    _key: 323
+  - _keyName: Weak Attack Right
+    _key: 324
+  - _keyName: Cancel
+    _key: 306
+  - _keyName: Confirm
+    _key: 101
+  - _keyName: Give (Hold)
+    _key: 102
+  - _keyName: Unequip
+    _key: 102
+  - _keyName: Revert Changes
+    _key: 102
+  - _keyName: Skip Dialogue
+    _key: 304
+  - _keyName: Cycle Prompts
+    _key: 32
+  - _keyName: PauseMenu
+    _key: 27
+  - _keyName: InGameMenu
+    _key: 9
+  - _keyName: Cycle LockOn Left
+    _key: 120
+  - _keyName: Cycle LockOn Right
+    _key: 308
+  _gamepadInput:
+  - _keyName: Dodge
+    _key: 331
+  - _keyName: Cancel
+    _key: 331
+  - _keyName: Interact
+    _key: 330
+  - _keyName: Confirm
+    _key: 330
+  - _keyName: Use Item
+    _key: 332
+  - _keyName: Give (Hold)
+    _key: 332
+  - _keyName: Sprint
+    _key: 338
+  - _keyName: Jump
+    _key: 333
+  - _keyName: PauseMenu
+    _key: 337
+  - _keyName: InGameMenu
+    _key: 336
+  - _keyName: LockOn
+    _key: 339
+  - _keyName: Weak Attack Right
+    _key: 335
+  - _keyName: Weak Attack Left
+    _key: 334

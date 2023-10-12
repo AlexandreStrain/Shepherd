@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42b206e8e9cb5f41a1e984b94846fcd, type: 3}
+  m_Name: Shepherd's Father
+  m_EditorClassIdentifier: 
+  _name: My Father
+  _description: He is my father, a Shepherd of yore. Ever since mother died, his
+    outlook on life has become... dimmer. I do not know what has changed his mood
+    recently, but he's decided I am old enough to learn to care for his flock.
+  _gender: 0
+  _race: 0
+  _origin: 0
+  _class: 3
+  _faction: 0
+  _enemies: 
+  _alliances: 
+  _mainHand: 0
+  _baseStatistics:
+    _strength: 6
+    _vitality: 6
+    _endurance: 6
+    _dexterity: 5
+    _intelligence: 5
+    _courage: 5
+    _perception: 5
+    _luck: 0
+    _thirst: 0
+    _waste: 0
+    _hunger: 0
+    _sleep: 0
+    _pleasure: 0
+    _health: 0
+    _stamina: 0
+    _baseCourage: 0
+    _immuneSystem: 0
+    _poise: 0
+    _carryWeight: 0
+    _physical: 50
+    _finesse: 50
+    _magical: 50
+    _fire: 50
+    _water: 50
+    _earth: 50
+    _wind: 50
+    _light: 50
+    _dark: 25
+    _bleed: 50
+    _poison: 50
+    _heat: 50
+    _freeze: 50
+    _disease: 50
+    _dizzy: 50
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 5
+    _weight: 0
+    _maxDurability: 0
+  _portrait: {fileID: 21300000, guid: ebb5a6d4df3d46c439e0fabbc7affd58, type: 3}
+  _currentBioCard: {fileID: 0}
+  _testVoice: {fileID: 0}
+  _allDialogue:
+  - _name: Shepherd's Father Intro
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: You all set? Alright then, follow me.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Shepherd's Father Intro - 2
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: I have errands to run. Watch the flock while I'm gone. Remember
+      what I taught you.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Shepherd's Father Intro - 3
+    _playAnimation: 1
+    _animation: {fileID: 11400000, guid: 5b2645d7aa98dfe4e9eb2668267fa4f7, type: 2}
+    _dialogueText: 'I set my herding cane on top of that hill. Take it - a keeper
+      of the flock should always have one close by.@
+
+      It has been in our family
+      for generations. It is a symbol of leadership among our flock, which we stand
+      watch over as Shepherds.@
+
+      Keep the sheep safe while I am away. They
+      are grazing just beyond the bridge.@
+
+      That''s my boy. I''ll return before
+      sunset. Do not let any harm befall them.'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Shepherd's Father Intro - 4
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: Hrmm...
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Shepherd's Father Intro - 5
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 'Were those boys bothering you?@
+
+      I see. Not to worry, my
+      son. I will talk with their parents tomorrow about what happened. I am sure
+      they will see reason, but if not...@
+
+      A few drinks should do the trick!'
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Shepherd's Father Intro - 6
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: It is getting late. Why don't you help me setup the campfire tonight?
+      I will show you how.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 0
+  - _name: 
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: 
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: 
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: 
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: 
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Shepherd's Father Toriel - 1
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: I want you to explore the town. Please give these notes to Urrog,
+      Wyndelle and Colin wherever you find them.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 11400000, guid: f4d0e8e98d1fb6443bef45de8c67cb40, type: 2}
+    _advanceSpecialEvent: 1
+  - _name: Shepherd's Father Toriel - 2
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: I will meet you back here whenver you are done.
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 1
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0
+  - _name: Shepherd's Father Toriel - 3
+    _playAnimation: 0
+    _animation: {fileID: 0}
+    _dialogueText: ...
+    _dialogueVoice: {fileID: 0}
+    _advanceDialogue: 0
+    _specialEvent: {fileID: 0}
+    _advanceSpecialEvent: 0

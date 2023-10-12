@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091995914584c7244abeb982bac00cae, type: 3}
+  m_Name: Old Sword
+  m_EditorClassIdentifier: 
+  _itemType: 0
+  _itemName: Old Sword
+  _itemDescription: 
+  _itemHUDIcon: {fileID: 21300000, guid: 0b9ae9f2543b75e4caf9b5feb02e8fd3, type: 3}
+  _itemIcon: {fileID: 21300000, guid: c4eb1da4765d0884d850a427644be0d1, type: 3}
+  _isQuestItem: 0
+  _isUnbreakable: 0
+  _itemStats:
+    _strength: 0
+    _vitality: 0
+    _endurance: 0
+    _dexterity: 0
+    _intelligence: 0
+    _courage: 0
+    _perception: 0
+    _luck: 0
+    _thirst: 0
+    _waste: 0
+    _hunger: 0
+    _sleep: 0
+    _pleasure: 0
+    _currentHealth: 0
+    _currentStamina: 0
+    _currentCourage: 0
+    _currentImmuneSystem: 0
+    _currentPoise: 0
+    _currentCarryWeight: 0
+    _physical: 10
+    _finesse: 10
+    _magical: 0
+    _fire: 0
+    _water: 0
+    _earth: 0
+    _wind: 0
+    _light: 0
+    _dark: 0
+    _bleed: 0
+    _poison: 0
+    _heat: 0
+    _freeze: 0
+    _disease: 0
+    _dizzy: 0
+    _luckDmg: 0
+    _soundProduction: 0
+    _fear: 0
+    _weight: 7
+    _maxDurability: 100
+  _modelPrefab: {fileID: 1296508306793050, guid: b0938f25ac903404b82968bdef73a923,
+    type: 3}
+  _oneHandIdle: {fileID: 11400000, guid: 3bdd05dd23567044cbf9eb8eef73d05a, type: 2}
+  _twoHandIdle: {fileID: 11400000, guid: e6482b582672f8d4aa2ce9354ca6b2bb, type: 2}
+  _oneHandActions:
+  - _actionInputType: 0
+    _actions:
+    - _actionType: 0
+      _actionDataObject: {fileID: 11400000, guid: c6a36ecacd14c06449bbe0e6de03e608,
+        type: 2}
+    - _actionType: 0
+      _actionDataObject: {fileID: 11400000, guid: 13d25ea9c94c67f4ab34ff461b29daa3,
+        type: 2}
+    _isMirrored: 0
+  - _actionInputType: 2
+    _actions:
+    - _actionType: 0
+      _actionDataObject: {fileID: 11400000, guid: 8fcb13e8510db1e4b8cd348b3d53d58f,
+        type: 2}
+    _isMirrored: 0
+  _twoHandActions:
+  - _actionInputType: 0
+    _actions:
+    - _actionType: 0
+      _actionDataObject: {fileID: 11400000, guid: 9a749df6d1668d14fa84320793f6646a,
+        type: 2}
+    - _actionType: 0
+      _actionDataObject: {fileID: 11400000, guid: 8330a588bf61e57459514c7acb000353,
+        type: 2}
+    _isMirrored: 0
+  _leftHandPosition: {fileID: 11400000, guid: 601f1a1ff225b7249b80063441487a81, type: 2}

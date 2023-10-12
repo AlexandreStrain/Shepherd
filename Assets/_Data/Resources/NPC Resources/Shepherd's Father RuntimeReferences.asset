@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53590e8f6ae55eb42b80165adb2bad66, type: 3}
+  m_Name: Shepherd's Father RuntimeReferences
+  m_EditorClassIdentifier: 
+  _rightHand: {fileID: 0}
+  _leftHand: {fileID: 0}
+  _spell: {fileID: 0}
+  _consumable: {fileID: 11400000, guid: 0ea182c0230bd6043bf4385b5efeab08, type: 2}
+  _armor: {fileID: 0}
+  _updateGameUI: {fileID: 0}
+  _runtimeWeapons:
+  - _instance: {fileID: 11400000, guid: 1075aab3d0f55504aa0a7a19a9dc7393, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 1
+    _durability: 0
+    _weaponHook: {fileID: 0}
+    _equippedHand: 0
+  - _instance: {fileID: 11400000, guid: 1075aab3d0f55504aa0a7a19a9dc7393, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 1
+    _durability: 0
+    _weaponHook: {fileID: 0}
+    _equippedHand: 1
+  _runtimeConsumables:
+  - _instance: {fileID: 11400000, guid: 54b7c117cd4d19d48894c69f0ecd3dc0, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 1
+    _durability: 0
+    _equipped: 1
+    _isLeftAmbidex: 0
+  _runtimeArmors:
+  - _instance: {fileID: 11400000, guid: 89982372a10308b478d94500bc1d115e, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 0
+    _durability: 100
+    _equipped: 1
+  - _instance: {fileID: 11400000, guid: 2707b2ce8c5d1ea429b3430ca9175f6a, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 0
+    _durability: 100
+    _equipped: 1
+  - _instance: {fileID: 11400000, guid: 90fe8d6058bb6514a929d686ad03493c, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 0
+    _durability: 100
+    _equipped: 1
+  - _instance: {fileID: 11400000, guid: 780798d19f1945847a1961c76dc21525, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 0
+    _durability: 100
+    _equipped: 1
+  - _instance: {fileID: 11400000, guid: f4c4878f7509fee42850d7a7fa82468a, type: 2}
+    _rtModel: {fileID: 0}
+    _unbreakable: 0
+    _durability: 100
+    _equipped: 1
+  _flockAlertSystem: 0
+  _flock: []
